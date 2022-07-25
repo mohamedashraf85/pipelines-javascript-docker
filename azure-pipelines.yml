@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'Free Trial'
+  dockerRegistryServiceConnection: '8e3ca025-dd53-4765-b7bc-093cf1d34fb6'
   imageRepository: 'mydocimage1'
   containerRegistry: 'MySampleTest'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
